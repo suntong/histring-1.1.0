@@ -4,3 +4,7 @@
 
 %:
 	dh $@ 
+
+override_dh_auto_install:
+	dh_auto_install
+	dh_installman debian/histring.1
