@@ -23,5 +23,11 @@
 *.hex
 
 # Debian packaging
+Makefile
 debian/*
+config.cache
+config.h
+config.log
+config.status
 histring
+stamp-h
